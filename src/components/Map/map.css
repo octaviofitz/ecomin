@@ -1,0 +1,16 @@
+.mapContainer{
+    display: flex;
+    justify-content: center;
+    margin: -2rem auto 2rem;
+    height: 50vh;
+}
+
+iframe{
+    width: 80vw;
+    border-radius: 30px;
+}
+@media (min-width: 768px){
+    .mapContainer .map{
+        width: 90vw;
+    }
+}

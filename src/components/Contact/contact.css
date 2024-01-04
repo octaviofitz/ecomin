@@ -1,0 +1,143 @@
+.contacto{
+    padding: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.837);
+}
+
+.contacto .titulo{
+    font-size: 8vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contacto .texto{
+    margin: 0.5rem 5vw 0 5vw;
+    color: #000;
+    text-align: center;
+}
+
+.contacto .Formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 90vw;
+}
+
+.contacto .Formulario .Input{
+    margin: 0.5rem 0
+}
+
+.contacto .boton{
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    background-color: #086cb4;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 50vw;
+    border-radius: 10px;
+}
+
+.contacto .boton:hover{
+    background-color: #086cb4;
+    opacity: 0.99;
+    color: #fff;
+}
+
+.contacto .boton:disabled{
+    background-color: #1193ef;
+    color: #fff;
+    opacity: 0.8;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+    width: 40vw;
+    background-color: #5c5188;
+    color: #fff;
+}
+
+@media (min-width: 768px){
+
+    .contacto .titulo{
+        font-size: 2.5rem;
+    }
+
+    .contacto .texto{
+        padding: 0.25rem 15vw;
+        margin: 0;
+    }
+
+    .contacto .Formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 70vw;
+    }
+
+    .contacto .Formulario .boton{
+        width: 20vw;
+    }
+}
+
+@media (min-width: 1024px){
+    .contacto{
+        display: flex;
+        justify-content: center;
+        margin: 0 5vw 0 1vw;
+    }
+
+    .contacto .titulo{
+        margin-top: 0.25rem;
+        font-size: 2.5vw;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+
+    .contacto .texto{
+        font-size: 1.1rem;
+        letter-spacing: 0.85px;
+        margin: 0;
+        padding: 0;
+        margin-top: 1rem;
+        padding-top: 0;
+        padding-right: 3rem;
+        text-align: left;
+    }
+
+    .contacto .Formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+        width: 45vw;
+    }
+
+    .contacto .Formulario .boton{
+        margin: 1rem auto;
+        font-size: 1.2rem;
+        width: 15vw;
+    }
+
+    div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+        width: 20vw;
+    }
+    
+}
+
+@media (min-width: 1440px){
+    .contacto .volanta,
+    .contacto .titulo,
+    .contacto .texto{
+    margin-left: 7vw;
+}
+
+    .contacto .titulo{
+        margin-top: -0.25rem;
+    }
+
+    .contacto .texto{
+        font-size: 1.3rem;
+    }
+
+    div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+        width: 12vw;
+    }
+}

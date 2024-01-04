@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0 1.5rem;
+    background-color: azure;
+}
+
+.footer .logo{
+    width: 55vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.footer .texto{
+    margin-top: 1.15rem;
+    text-align: center;
+    font-size: 0.9rem;    
+}
+
+.footer .logo{
+    width: 30vw;
+}
+
+@media (min-width: 1024px){
+    .footer{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .footer .logo{
+        width: 20vw;
+    }
+
+    .footer .texto{
+        margin-top: 1.5rem;
+    }
+}

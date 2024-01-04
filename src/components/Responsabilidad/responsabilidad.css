@@ -1,0 +1,53 @@
+.responsabilidad {
+    text-align: center;
+    background-color: cadetblue;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.responsabilidad .container .img{
+    width: 80vw;
+    border-radius: 13px;
+    padding: 1rem 0;
+}
+
+.responsabilidad .container .titulo{
+    font-weight: 600;
+}
+
+
+@media (min-width: 768px){
+
+.responsabilidad .container{
+    width: 300px;
+}
+
+.responsabilidad .container .img{
+    
+}
+
+.responsabilidad .container .titulo{
+    font-size: 1.6rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.responsabilidad .container .texto{
+    padding: 0 2rem;
+}
+
+}
+
+@media (min-width: 1024px)
+{
+
+.responsabilidad .container{
+    display: flex;
+    width: 80vw;
+}
+
+.responsabilidad .container .img{
+    width: 40vw;
+}
+
+}

@@ -4,11 +4,35 @@
 
 .nosotros .titulo{
     text-align: center;
-    color: #086cb4;
-    font-weight: 700;
+/*     color: #086cb4;
+ */    font-weight: 700;
 }
 
 .nosotros .texto{
     margin: 0.5rem 1rem;
     text-align: center;
+}
+
+@media (min-width: 768px){
+
+.nosotros .titulo{
+    font-size: 2.6rem;
+}
+
+.nosotros .texto{
+    margin: 0.75rem 3rem;
+}
+
+}
+
+@media (min-width: 1024px){
+    .nosotros .titulo{
+        margin-top: 2.6rem;
+        font-size: 3rem;
+    }
+
+    .nosotros .texto{
+        margin: 0.85rem 15vw;
+        font-size: 1.35rem;
+    }
 }
