@@ -1,5 +1,5 @@
 .navbar .logo{
-    height: 7vh;
+    height: 6vh;
 }
 
 .navbar{
@@ -11,4 +11,6 @@
     align-items: center;
     margin: 1rem 0;
     margin-bottom: 0;
+    text-transform: uppercase;
+    cursor: pointer;
 }

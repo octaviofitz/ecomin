@@ -1,6 +1,8 @@
 .contacto{
-    padding: 2rem 0;
-    background-color: rgba(255, 255, 255, 0.837);
+    padding: 1.5rem 0 0;
+    background-color: #EBEBEB;
+    /* border-radius: 10px;
+    margin: 1rem; */
 }
 
 .contacto .titulo{
@@ -19,7 +21,7 @@
     display: flex;
     flex-direction: column;
     margin: 1rem auto;
-    width: 90vw;
+    width: 85vw;
 }
 
 .contacto .Formulario .Input{
@@ -30,21 +32,21 @@
     display: flex;
     justify-content: center;
     margin: 1rem auto;
-    background-color: #086cb4;
+    background-color: #3A6EA5;
     color: #fff;
-    font-size: 1.2rem;
-    width: 50vw;
+    font-size: 1.1rem;
+    width: 40vw;
     border-radius: 10px;
 }
 
 .contacto .boton:hover{
-    background-color: #086cb4;
+    background-color: #3A6EA5;
     opacity: 0.99;
     color: #fff;
 }
 
 .contacto .boton:disabled{
-    background-color: #1193ef;
+    background-color: #3A6EA5;
     color: #fff;
     opacity: 0.8;
 }

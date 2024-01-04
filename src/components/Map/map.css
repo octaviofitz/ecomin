@@ -1,7 +1,7 @@
 .mapContainer{
     display: flex;
     justify-content: center;
-    margin: -2rem auto 2rem;
+    margin: 2.5rem auto 2rem;
     height: 50vh;
 }
 
