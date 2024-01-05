@@ -1,0 +1,11 @@
+.bannerCel .img{
+    width: 100vw;
+}
+
+@media (min-width: 1024px){
+
+.bannerCel .img{
+    display: none;
+}
+
+}

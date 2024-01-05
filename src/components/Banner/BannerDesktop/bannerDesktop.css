@@ -1,0 +1,13 @@
+.BannerPC .img{
+    display: none;
+}
+
+
+@media (min-width: 1024px){
+    .BannerPC .img{
+        display: block;
+        width: 100vw;
+    }
+    
+    
+}
