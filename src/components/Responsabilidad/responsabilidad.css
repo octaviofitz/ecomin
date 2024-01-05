@@ -9,8 +9,8 @@
 
 .responsabilidad .container .img{
     width: 80vw;
-    border-radius: 13px;
     padding: 1rem 0;
+    border-radius: 12px;
 }
 
 .responsabilidad .container .titulo{
@@ -34,6 +34,7 @@
 .responsabilidad .container .texto{
     padding: 0rem;
     margin: 0;
+    padding-bottom: 2rem;
 }
 
 }
@@ -41,33 +42,33 @@
 @media (min-width: 1024px){
 
 .responsabilidad{
-    padding: 2rem;
+    padding: 0rem;
 }    
 
 .responsabilidad .container{
     display: flex;
-    width: 80vw;
+    width: 100vw;
     justify-content: space-around;
-    margin: 0 3rem ;
+    margin: 0 0rem ;
+    padding: 0;
 }
 
 .responsabilidad .container .img{
-    width: 400px;
-    margin-left: -5vw;
     margin-top: 1rem;
+    width: 450px;
+    margin-left: 8vw;
 }
 
 .responsabilidad .container .data{
-    margin-left: 5rem;
+    margin-left: 8vw;
 }
 
 .responsabilidad .container .titulo{
     margin-top: 2rem;
 }
 
-.responsabilidad .container .data .texto{
-    margin: 0;
-    padding: 0;
+.responsabilidad .container .texto{
+    font-size: 1.2vw;
 }
 
 }

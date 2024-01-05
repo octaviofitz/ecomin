@@ -14,7 +14,9 @@ function BasicExample() {
         <img src={Logo} className='logo'></img>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto items">
+        <Nav className="me-auto">
+    </Nav>
+          <Nav /* className="me-auto items" */>
             <Nav.Link href="#home">Empresa</Nav.Link>
             <Nav.Link href="#link">Negocio</Nav.Link>
             <Nav.Link href="#link">Responsabilidad</Nav.Link>
