@@ -20,35 +20,54 @@
 
 @media (min-width: 768px){
 
-.responsabilidad .container{
-    width: 300px;
-}
-
 .responsabilidad .container .img{
-    
+    width: 60vw;
+    margin-top: 0rem;
 }
 
 .responsabilidad .container .titulo{
     font-size: 1.6rem;
     margin: 0.5rem 0 1rem;
+    padding: 0;
 }
 
 .responsabilidad .container .texto{
-    padding: 0 2rem;
+    padding: 0rem;
+    margin: 0;
 }
 
 }
 
-@media (min-width: 1024px)
-{
+@media (min-width: 1024px){
+
+.responsabilidad{
+    padding: 2rem;
+}    
 
 .responsabilidad .container{
     display: flex;
     width: 80vw;
+    justify-content: space-around;
+    margin: 0 3rem ;
 }
 
 .responsabilidad .container .img{
-    width: 40vw;
+    width: 400px;
+    margin-left: -5vw;
+    margin-top: 1rem;
+}
+
+.responsabilidad .container .data{
+    margin-left: 5rem;
+}
+
+.responsabilidad .container .titulo{
+    margin-top: 2rem;
+}
+
+.responsabilidad .container .data .texto{
+    margin: 0;
+    padding: 0;
 }
 
 }

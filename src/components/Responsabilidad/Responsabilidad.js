@@ -11,7 +11,7 @@ function Responsabilidad() {
             <div>
                 <img src={imgResponsabilidad} className='img' alt='Minería sustentable' />
             </div>
-           <div>
+           <div className='data'>
             <h4 className='titulo'><strong>ECOMIN:</strong> Líder en Minería Sustentable</h4>
             <p className='texto'>ECOMIN destaca en la industria minera por su enfoque vanguardista en prácticas sustentables. Comprometidos con la reducción de la huella ambiental, empleamos tecnologías innovadoras para una extracción eficiente y respetuosa. Nuestra responsabilidad social se refleja en proyectos comunitarios y diálogo transparente. Certificaciones internacionales respaldan nuestro compromiso. ECOMIN: extracción responsable para un futuro sostenible.</p>
             </div>

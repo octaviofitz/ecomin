@@ -20,8 +20,9 @@
 .contacto .Formulario{
     display: flex;
     flex-direction: column;
-    margin: 1rem auto;
+    margin: 1rem auto 0;
     width: 85vw;
+    padding-bottom: 1rem;
 }
 
 .contacto .Formulario .Input{
@@ -84,11 +85,12 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
     .contacto{
         display: flex;
         justify-content: center;
-        margin: 0 5vw 0 1vw;
+        margin: 0;
+        padding: 1.5rem 4rem 1.5rem;
     }
 
     .contacto .titulo{
-        margin-top: 0.25rem;
+        margin-top: 2rem;
         font-size: 2.5vw;
         text-align: left;
         margin-bottom: 2rem;
@@ -125,14 +127,18 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
 }
 
 @media (min-width: 1440px){
-    .contacto .volanta,
+
+    .contacto{
+        padding-top: 3rem;
+    }
+
     .contacto .titulo,
     .contacto .texto{
     margin-left: 7vw;
 }
 
     .contacto .titulo{
-        margin-top: -0.25rem;
+        margin-top: 2rem;
     }
 
     .contacto .texto{

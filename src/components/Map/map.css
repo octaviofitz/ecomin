@@ -1,8 +1,10 @@
 .mapContainer{
     display: flex;
     justify-content: center;
-    margin: 2.5rem auto 2rem;
+    padding: 2.5rem 2rem;
+    margin: auto;
     height: 50vh;
+    background-color: #3A6EA5;
 }
 
 iframe{
