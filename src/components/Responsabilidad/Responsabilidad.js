@@ -6,7 +6,7 @@ import './responsabilidad.css';
 
 function Responsabilidad() {
     return (
-        <section className='responsabilidad'>
+        <section className='responsabilidad' id='responsabilidad'>
             <div className='container'>
             <div>
                 <img src={imgResponsabilidad} className='img' alt='Minería sustentable' />

@@ -4,7 +4,7 @@ import './nosotros.css';
 
 function Nosotros() {
     return (
-        <section className='nosotros'>
+        <section className='nosotros' id='nosotros'>
             <h1 className='titulo'>ECOMIN</h1>
             <p className='texto'>Ecomin SRL es una empresa familiar argentina dedicada a la extracción, procesamiento y comercialización de diatomita (mineral absorbente de origen sedimentario).</p>
             <p className='texto'>Principales productos: absorbentes sanitarios para mascotas y absorbentes industriales (marcas propias y de terceros/ fasón).</p>

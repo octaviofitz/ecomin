@@ -43,6 +43,12 @@
     font-weight: 500;
     margin: 0;
     font-size: 1.35rem;
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+.unidades a{
+    text-decoration: none;
 }
 
 
