@@ -10,10 +10,12 @@ import Industrial from '../Unidades/Industrial/Industrial';
 import Mascotas from '../Unidades/Mascotas/Mascotas';
 import Sanidad from '../Unidades/Sanidad/Sanidad';
 import Pages from '../Pages/Pages';
+import ScrollToTop from '../ScrollToTop/ScrollToTop';
 
 function AppRouter() {
     return (
         <BrowserRouter>
+            <ScrollToTop />
             <NavBar />
             <main>
             <BannerMobile />

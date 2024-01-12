@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-import BannerPC from '../../../Img/Banner/default.jpg'
+import BannerPC from '../../../Img/Banner/default.png'
 
 import './bannerDesktop.css';
 

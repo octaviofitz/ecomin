@@ -27,10 +27,11 @@
     .footer{
         flex-direction: row;
         justify-content: space-evenly;
+        padding: 2.5rem 0;
     }
 
     .footer .logo{
-        width: 20vw;
+        width: 15vw;
     }
 
     .footer .texto{

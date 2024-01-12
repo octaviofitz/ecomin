@@ -1,0 +1,83 @@
+.sanidad{
+    margin: 2rem 1rem 3rem;
+}
+
+.sanidad .container{
+    padding: 1rem 1.25rem;
+    background-color: #EBEBEB;
+    border-radius: 13px;
+}
+
+.sanidad .container .img{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem auto 1rem;
+    border-radius: 30px;
+}
+
+.sanidad .container .titulo{
+    font-weight: 600;
+    text-align: center;
+    margin: 1.5rem auto 1rem;
+    text-transform: uppercase;
+}
+
+.sanidad .container .texto{
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .sanidad{
+        margin: 4rem;
+    }
+
+    .sanidad .container{
+        padding: 2rem 3rem;
+    }
+    
+    .sanidad .container .img{
+        width: 60vw;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .sanidad{
+        margin: 4rem 6rem;
+    }
+    
+    .sanidad .container .img{
+        width: 55vw;
+    }
+    
+    .sanidad .container .titulo{
+        font-size: 2rem;
+        margin: 2rem auto;
+    }
+    
+    .sanidad .container .texto{
+        font-size: 1.15rem;
+    }
+}
+
+@media (min-width: 1440px){
+    .sanidad{
+        margin: 5rem 8rem;
+    }
+    
+    .sanidad .container .img{
+        width: 50vw;
+        margin-top: 2rem;
+    }
+    
+    .sanidad .container .titulo{
+        font-size: 2.5rem;
+        margin: 2.5rem auto;
+    }
+    
+    .sanidad .container .texto{
+        font-size: 1.15rem;
+        padding: 0 3rem;
+    }
+}

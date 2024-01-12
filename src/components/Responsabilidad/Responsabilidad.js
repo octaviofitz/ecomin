@@ -8,7 +8,7 @@ function Responsabilidad() {
     return (
         <section className='responsabilidad' id='responsabilidad'>
             <div className='container'>
-            <div>
+            <div className='containerimg'>
                 <img src={imgResponsabilidad} className='img' alt='Minería sustentable' />
             </div>
            <div className='data'>
