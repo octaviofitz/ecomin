@@ -67,13 +67,13 @@
     }
     
     .sanidad .container .img{
-        width: 50vw;
+        width: 40vw;
         margin-top: 2rem;
     }
     
     .sanidad .container .titulo{
         font-size: 2.5rem;
-        margin: 2.5rem auto;
+        margin: 2.5rem auto 1.5rem;
     }
     
     .sanidad .container .texto{

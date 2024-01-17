@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imgResponsabilidad from '../../Img/Responsabilidad/default.jpg'
+import imgResponsabilidad from '../../Img/Responsabilidad/mineriaSustentable.jpg'
 
 import './responsabilidad.css';
 

@@ -5,6 +5,11 @@
    color: #EBEBEB;
 }
 
+.responsabilidad .container{
+    display: flex;
+    flex-direction: column;
+}
+
 .responsabilidad .container .img{
     width: 80vw;
     padding: 1rem 0;
@@ -44,14 +49,25 @@
 }    
 
 .responsabilidad .container{
-    display: flex;
-    width: 100vw;
-    justify-content: space-around;
-    margin: 0 0rem ;
-    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.responsabilidad .container .img{
+.responsabilidad .container .containerimg .img{
+    width: 40vw;
+    max-width: 500px;
+}
+
+.responsabilidad .container .data{
+    width: 60vw;
+    margin-left: 5vw;
+}
+
+
+
+
+/* .responsabilidad .container .img{
     margin-top: 1rem;
     width: 450px;
     margin-left: 8vw;
@@ -67,6 +83,25 @@
 
 .responsabilidad .container .texto{
     font-size: 1.2vw;
+} */
+
 }
 
+@media (min-width: 1440px){
+
+    .responsabilidad .container{
+        justify-content: space-evenly;
+    }
+
+    .responsabilidad .container .img{
+        width: 600px;
+    }
+
+    .responsabilidad .container .titulo{
+        font-size: 2rem;
+    }
+
+    .responsabilidad .container .texto{
+        font-size: 1.1rem;
+    }
 }

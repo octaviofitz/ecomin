@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-import BannerMobile1 from '../../../Img/Banner/bannerMobile.webp'
+import BannerMobile1 from '../../../Img/Banner/bannerMobile.png'
 
 import './bannerMobile.css';
 
