@@ -6,6 +6,7 @@
     padding: 1rem 1.25rem;
     background-color: #EBEBEB;
     border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .industrial .container .img{
