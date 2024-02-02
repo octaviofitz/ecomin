@@ -10,9 +10,12 @@ function Footer() {
             <div>
                 <img src={logo} alt='Ecomin Logo' className='logo' />
             </div>
-            <div>
+            <div className='containerUno'>
                 <p className='texto'><strong>© ECOMIN</strong> Todos los derechos reservados.</p>
             </div>
+            <div className='containerDos'>
+            <a href='https://galide.com.ar' target='__blank'>Web desarrollada por <strong>GALIDÉ</strong></a>
+                </div>
         </footer>
     );
 }

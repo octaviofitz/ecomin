@@ -1,5 +1,5 @@
 .contacto{
-    padding: 1.5rem 0 0;
+    padding: 2.5rem 0 0.5rem;
     background-color: #EBEBEB;
     /* border-radius: 10px;
     margin: 1rem; */
@@ -101,7 +101,7 @@ div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
         letter-spacing: 0.85px;
         margin: 0;
         padding: 0;
-        margin-top: 1rem;
+        margin-top: 0.25rem;
         padding-top: 0;
         padding-right: 3rem;
         text-align: left;

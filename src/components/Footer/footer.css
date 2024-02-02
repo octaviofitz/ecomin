@@ -10,31 +10,58 @@
     display: flex;
     margin: auto;
     justify-content: center;
+    margin-bottom: 1.5rem;
 }
 
 .footer .texto{
-    margin-top: 1.15rem;
     text-align: center;
     font-size: 0.9rem;    
     color: #3A6EA5;
 }
 
+
 .footer .logo{
     width: 30vw;
+}
+
+.footer .containerDos{
+    text-align: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #3A6EA5;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer a:hover{
+    color: #6895c4;
 }
 
 @media (min-width: 1024px){
     .footer{
         flex-direction: row;
         justify-content: space-evenly;
-        padding: 2.5rem 0;
+        padding: 2rem 0;
     }
 
     .footer .logo{
         width: 15vw;
+        margin-bottom: 0rem;
+        margin-top: 0.45rem;
     }
 
     .footer .texto{
         margin-top: 1.5rem;
+    }
+
+    .footer .containerUno{
+        order: -1;
+    }
+
+    .footer .containerDos{
+        margin-top: 1.45rem;
+        font-size: 0.88rem;
     }
 }

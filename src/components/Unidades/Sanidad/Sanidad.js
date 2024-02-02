@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Diactosec from '../../../Img/Unidades/Industrial/sanidad.jpg'
+import Diactosec from '../../../Img/Unidades/Sanidad/Diatosec.webp'
 
 import './sanidad.css';
 
